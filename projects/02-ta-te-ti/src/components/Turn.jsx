@@ -1,7 +1,6 @@
 import Square from './Square'
 import { TURNS } from '../constants'
 
-// eslint-disable-next-line react/prop-types
 const Turn = ({ turn }) => {
   return (
     <section className='turn'>
