@@ -1,0 +1,6 @@
+1)  npm init -y: inicia el proyecto (package.json)
+
+2)  mkdir projects: crear carpeta llamada "projects"
+
+3)  cd projects -> npm create vite@latest: creo el proyecto
+      (Le damos el nombre, seleccionamos framework y seleccionamos JavaScript + SWC)
