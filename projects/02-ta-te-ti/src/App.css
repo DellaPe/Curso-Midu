@@ -1,0 +1,76 @@
+.board {
+  width: fit-content;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.board .game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #eee;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.square.is-selected {
+  color: #fff;
+  background: #09f;
+}
+
+.turn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.winner {
+  display: grid;
+  position: absolute;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  gap: 30px;
+}
+
+.winner .text {
+  background: #111;
+  height: 384px;
+  width: 320px;
+  border: 2px solid #eee;
+  gap: 30px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.reset {
+  border-radius: 10px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  border: 2px solid #eee;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #eee;
+  color: #111;
+}
