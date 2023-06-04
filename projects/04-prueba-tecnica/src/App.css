@@ -1,0 +1,9 @@
+.main-cat {
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
