@@ -4,3 +4,13 @@
 
 3)  cd projects -> npm create vite@latest: creo el proyecto
       (Le damos el nombre, seleccionamos framework y seleccionamos JavaScript + SWC)
+
+// ESlint 
+
+1) npm install standard -D
+
+2) agregar en el package.json 
+      "eslintConfig": {
+            "extends": "./node_modules/standard/eslintrc.json"
+      }
+0 3) npx eslint init
